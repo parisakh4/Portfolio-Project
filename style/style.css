@@ -78,3 +78,15 @@ p {
     font-size: 46px;
   }
 }
+
+.img {
+  max-width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 20px;
+}
+
+.description {
+  padding-left: 40px;
+  padding-right: 40px;
+}

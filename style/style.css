@@ -17,6 +17,7 @@
 }
 
 h2,
+h1,
 .about-page h1 {
   font-size: 64px;
   font-weight: 700;
@@ -141,4 +142,17 @@ p {
 .description {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.work-page h3 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.work-page p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
 }

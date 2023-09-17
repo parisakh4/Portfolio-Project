@@ -160,3 +160,21 @@ p {
 .contact {
   padding-left: 140px;
 }
+
+.active {
+  color: var(--secondary-color) !important;
+}
+
+.navbar-brand {
+  padding: 0 130px;
+}
+
+.home {
+  padding: 0 40px;
+}
+.home-nav {
+  text-align: center;
+}
+.nav-item {
+  padding: 0 20px;
+}

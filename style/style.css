@@ -80,17 +80,9 @@ p {
   padding-bottom: 180px;
 }
 
-.hero .get-started {
-  background-color: var(--secondary-color);
-  display: block;
-  margin: 0 auto;
-  padding: 18px 46px;
-  font-family: "Poppins";
-  font-weight: 500;
-  font-size: 18px;
-}
-
-.about-page .get-started {
+.hero .get-started,
+.about-page .get-started,
+footer .get-started {
   background-color: var(--secondary-color);
   display: block;
   padding: 18px 46px;
@@ -160,7 +152,12 @@ p {
 .contact {
   padding-left: 140px;
 }
-
+@media (max-width: 770px) {
+  .contact {
+    text-align: center;
+    padding: 0;
+  }
+}
 .active {
   color: var(--secondary-color) !important;
 }
@@ -172,9 +169,49 @@ p {
 .home {
   padding: 0 40px;
 }
-.home-nav {
-  text-align: center;
-}
+
 .nav-item {
   padding: 0 20px;
+}
+
+footer .contact-box {
+  background-color: var(--primary-color);
+  padding: 30px 120px;
+  margin: 130px;
+  margin-bottom: 40px;
+}
+
+footer h3 {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
+footer .email-link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Poppins;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links {
+  background-color: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 25px;
+  margin: 20px;
+  color: var(--secondary-color);
+}
+footer .icons {
+  margin: 40px;
+}
+
+footer .social-links:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
